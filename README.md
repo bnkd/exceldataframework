@@ -6,12 +6,12 @@ This is a Python script made using pandas library
 
 # Working of the Script
 
-This Python script allows to take data from a csv, and get the corresponding equating from another csv and store it in a new csv file. 
+This Python script allows to take data from a CSV, and get the corresponding equating from another CSV and store it in a new CSV file. 
 
 
 # Demonstration
 
-Let's Say there is a CSV file with Coloumns:- items & Selling_price  named as consumer.csv and another CSV named as backend.csv with Coloumns items , cost_price, HSN code , Tax Slab , Supplier.
+Let's Say there is a CSV file with Coloumns:- items & Selling_price  named as consumer.csv and another CSV named as backend.csv with Coloumns items, cost_price, HSN code, Tax Slab, Supplier.
 
 <img width="339" alt="Screenshot 2024-05-13 at 8 07 29 PM" src="https://github.com/bnkd/exceldataframework/assets/107197651/31ddaebc-8b6d-4886-87c3-c7719000a6cc">
 
@@ -48,13 +48,13 @@ rec.csv
 
 # Relavance
 
-when the data which we are requested to get the details from the second csv file is not orderd or only partial data out is required we can easily get it using this tool
+When the data which we are requested to get , from the details of the  second CSV file is not ordered or only partial data is required, we can easily get it using this tool
 
 
 
 # About Code
-I Have uploaded the code that i used to demonstrate the example which can be easily be  modified to do the required work,
-you can merge multiple CSV file by adding more 
+I Have uploaded the code that I used to demonstrate the example which can be easily be  modified to do the required work,
+you can merge multiple CSV files by adding more 
 
 detail_df = pd.read_csv(".csv")
 
