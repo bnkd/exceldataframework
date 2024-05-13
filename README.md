@@ -53,10 +53,12 @@ when the data which we are requested to get the details from the second csv file
 
 
 # About Code
-I Have uploaded the code I used to demostrate the example and also a file with no file names mentioned 
+I Have uploaded the code that i used to demonstrate the example which can be easily be  modified to do the required work,
 you can merge multiple CSV file by adding more 
 
 detail_df = pd.read_csv(".csv")
 
 statements and changing the code appropriately
+
+I have Uploaded the code as a Python Notebook for easy error detection.
 
